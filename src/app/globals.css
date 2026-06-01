@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --lime: #c7fd3e;
+  /* System stack with strong Latin + Cyrillic + Georgian coverage */
+  --font-sans:
+    'BPG Nino Mtavruli', 'Noto Sans Georgian', 'FiraGO', system-ui,
+    -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0c08;
+  color: #f4f6ef;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Thin lime scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0c08;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f241a;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2a3120;
+}
+
+::selection {
+  background: var(--lime);
+  color: #0a0c08;
+}
+
+/* Reusable utility: soft radial glow used behind hero/sections */
+.glow-lime {
+  background: radial-gradient(
+    600px circle at center,
+    rgba(199, 253, 62, 0.16),
+    transparent 70%
+  );
+}
+
+/* Scroll-reveal base state — JS toggles .is-visible */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

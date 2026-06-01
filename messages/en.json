@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "QFooD — Scan. Order. Pay.",
+    "description": "QFooD turns every restaurant table into a self-checkout. Guests scan a QR code to browse the menu, order, split the bill and pay with Apple Pay or Google Pay — no app, no waiting."
+  },
+  "nav": {
+    "howItWorks": "How it works",
+    "features": "Features",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "cta": "Start free trial"
+  },
+  "hero": {
+    "badge": "QR ordering & payments",
+    "titleLine1": "Turn every table",
+    "titleHighlight": "into a checkout.",
+    "subtitle": "Your guests scan a QR code at the table, browse the menu, order and pay in seconds — no app download, no waiting for a waiter. Built for restaurants in Georgia and Central Asia.",
+    "ctaPrimary": "Start free trial",
+    "ctaSecondary": "See how it works",
+    "stat1Value": "0 apps",
+    "stat1Label": "to download",
+    "stat2Value": "30 sec",
+    "stat2Label": "to order",
+    "stat3Value": "100%",
+    "stat3Label": "contactless",
+    "phoneTitle": "Table 12",
+    "phoneItem1": "Khinkali (5 pcs)",
+    "phoneItem2": "Adjarian Khachapuri",
+    "phoneItem3": "Fresh Lemonade",
+    "phoneTotal": "Total",
+    "phonePay": "Pay now"
+  },
+  "how": {
+    "title": "Order in three taps",
+    "subtitle": "No installs, no sign-ups, no friction. From seated to served in under a minute.",
+    "step1Title": "Scan the QR code",
+    "step1Desc": "Each table has its own QR code. Guests scan with their phone camera and the menu opens instantly in the browser.",
+    "step2Title": "Browse & order",
+    "step2Desc": "Photos, descriptions and prices in the guest's language. Add items to the cart and send the order straight to the kitchen.",
+    "step3Title": "Split & pay",
+    "step3Desc": "Split the bill with the table and pay with Apple Pay, Google Pay or card — all without flagging down a waiter."
+  },
+  "features": {
+    "title": "Everything your restaurant needs",
+    "subtitle": "One platform for guests, staff and owners — from the first scan to the closing report.",
+    "splitBillTitle": "Split the bill",
+    "splitBillDesc": "Made for group dining. Guests divide the bill evenly or by item and each pays their own share in seconds.",
+    "payTitle": "Apple Pay & Google Pay",
+    "payDesc": "Tap-to-pay checkout with cards, Apple Pay and Google Pay. Fast, secure and fully contactless.",
+    "noAppTitle": "No app to download",
+    "noAppDesc": "Everything runs in the mobile browser. Guests just scan and go — nothing to install or sign up for.",
+    "kitchenTitle": "Kitchen & staff view",
+    "kitchenDesc": "Orders arrive on a tablet in real time. Staff log in with a simple PIN and update order status as it cooks.",
+    "ownerTitle": "Owner dashboard",
+    "ownerDesc": "Manage menus, tables and pricing, and track sales and analytics from a single admin panel.",
+    "multiTitle": "Multilingual menus",
+    "multiDesc": "Serve every guest in their language — Georgian, English and Russian out of the box."
+  },
+  "pricing": {
+    "title": "Simple, honest pricing",
+    "subtitle": "Start free. Upgrade only when QFooD is working for you.",
+    "badge": "Most popular",
+    "planName": "QFooD Pro",
+    "trial": "1 month free trial",
+    "price": "100",
+    "currency": "GEL",
+    "per": "/ month",
+    "afterTrial": "after your free month — cancel anytime",
+    "feature1": "Unlimited tables & QR codes",
+    "feature2": "Split bill & contactless payments",
+    "feature3": "Kitchen & staff tablet access",
+    "feature4": "Owner dashboard & analytics",
+    "feature5": "Menus in 3 languages",
+    "feature6": "Email & phone support",
+    "cta": "Start your free month"
+  },
+  "footer": {
+    "tagline": "Scan. Order. Pay. QR ordering and payments for modern restaurants.",
+    "navTitle": "Product",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "email": "contact@qfood.com",
+    "phone": "+995 551 775 675"
+  },
+  "lang": {
+    "label": "Language",
+    "ka": "ქართული",
+    "en": "English",
+    "ru": "Русский"
+  }
+}
